@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+/*Barra de navegacion*/
+
+#navegacion{
+
+    background-color: #BB8FCE;
+    height: 50px;
+    width: 945px;
+    position: fixed;
+    top: 20px;
+    left: 380px;
+    box-shadow: 2px 5px 10px black;
+    
+    }
+    
+    
+    #navegacion ul{
+        list-style: none;
+        margin: 0px auto;
+        
+        
+        }
+    
+    #navegacion ul > li a{
+    
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid black;
+    
+    }
+    
+    
+    #navegacion > ul > li {
+    
+    line-height: 50px;
+    float: left;
+    }
+    
+    
+    #caja-nav{
+    
+   
+    position: relative;
+    height: 80px;
+    
+    }
+    
+    #navegacion > ul> li:hover{
+    
+    background-color: white;
+    box-shadow: 0px 5px 10px red ;
+    }
+
+    /*Infografia*/
+
+    
+
+#infografia{
+
+    position: absolute;
+    
+    top: 120px;
+    left: 400px;
+    z-index: -1;
+
+
+   }
